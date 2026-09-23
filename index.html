@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Enzo Borges — Portfólio</title>
+<meta name="description" content="Estudante de Engenharia de Software · Java Back-end · C# & Unity"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<nav>
+  <span class="logo">Enzo Borges</span>
+  <ul>
+    <li><a href="#sobre" data-i18n="nav_about">Sobre</a></li>
+    <li><a href="#stack" data-i18n="nav_stack">Stack</a></li>
+    <li><a href="#projetos" data-i18n="nav_projects">Projetos</a></li>
+    <li><a href="#formacao" data-i18n="nav_edu">Formação</a></li>
+    <li><a href="#contato" data-i18n="nav_contact">Contato</a></li>
+  </ul>
+  <button id="langBtn" class="lang" type="button" aria-label="Trocar idioma / Switch language">
+    <span data-lang="pt" class="on">PT</span><span data-lang="en">EN</span>
+  </button>
+</nav>
+
+<header class="hero">
+  <div class="hero-text">
+    <h1>Enzo <span>Borges</span></h1>
+    <p class="sub">Martins de Almeida</p>
+    <p class="role" data-i18n="role">Estudante de Engenharia de Software · Foco em Back-end Java · C# e Unity em estudo</p>
+    <p class="desc" data-i18n="hero_desc">Estudante de Engenharia de Software no CEUB, construindo base sólida em Java, POO e boas práticas, explorando desenvolvimento de jogos com C# e Unity, com foco de longo prazo em Inteligência Artificial.</p>
+    <div class="chips">
+      <span>Java</span><span>C#</span><span>Unity</span><span>Python</span><span>JavaScript</span><span>SQL</span><span>HTML/CSS</span><span>Git</span>
+    </div>
+    <div class="btns">
+      <a class="btn main" href="assets/curriculo-enzo-borges.pdf" download data-i18n="cv">Baixar currículo</a>
+      <a class="btn" href="https://www.linkedin.com/in/enzo-borges-7a54973b6" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/devenzoborges" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <div class="photo">
+    <div class="frame"><img src="img/fotominha.jpeg" alt="Enzo Borges"/></div>
+    <span class="status"><i></i><b data-i18n="status">Disponível para estágio</b></span>
+  </div>
+</header>
+
+<main>
+<section id="sobre">
+  <h2 data-i18n="about_title">Sobre mim</h2>
+  <div class="grid2">
+    <div class="text">
+      <p data-i18n="about_1">Sou estudante de <strong>Engenharia de Software no CEUB</strong> (2026–2029), em Brasília, DF. Minha missão é construir soluções back-end robustas em Java, aplicando boas práticas de engenharia, versionamento e resolução de problemas.</p>
+      <p data-i18n="about_2">Sou apaixonado por tecnologia e busco <strong>estágio ou vaga júnior</strong> em desenvolvimento Java. Também estou aprendendo <strong>C# e Unity</strong> para criar jogos e vejo a <strong>Inteligência Artificial</strong> como direção de longo prazo.</p>
+      <p data-i18n="about_3">Fora da programação, participo de um <strong>projeto social</strong> com minha mãe na DF-140, apoiando crianças da região.</p>
+    </div>
+    <ul class="info">
+      <li><small data-i18n="l_edu">Formação</small>Engenharia de Software — CEUB</li>
+      <li><small data-i18n="l_loc">Localização</small>Brasília, DF</li>
+      <li><small data-i18n="l_eng">Inglês</small><span data-i18n="eng">Básico (A2)</span></li>
+      <li><small>E-mail</small><a href="mailto:dev.enzoborges@gmail.com">dev.enzoborges@gmail.com</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="stack">
+  <h2 data-i18n="stack_title">Tech Stack</h2>
+  <div class="skills">
+    <div class="sk"><h3>Java</h3><p data-i18n="sk_java">Programação Orientada a Objetos (POO): classes, herança, encapsulamento e polimorfismo. Foco atual.</p><div class="bar"><i style="--w:45%"></i></div><small data-i18n="lv_dev">em desenvolvimento</small></div>
+    <div class="sk"><h3>C#</h3><p data-i18n="sk_cs">Aprendendo a linguagem e sua sintaxe, POO em C# e escrevendo programas simples. Base para o Unity.</p><div class="bar"><i style="--w:35%"></i></div><small data-i18n="lv_learn">aprendendo</small></div>
+    <div class="sk"><h3>Unity</h3><p data-i18n="sk_unity">Aprendendo a engine: cenas, GameObjects, componentes e scripts em C# para criar protótipos de jogos 2D.</p><div class="bar"><i style="--w:20%"></i></div><small data-i18n="lv_learn">aprendendo</small></div>
+    <div class="sk"><h3>Python</h3><p data-i18n="sk_py">Scripts, lógica de programação e cursos na Alura. Base para o caminho em IA.</p><div class="bar"><i style="--w:45%"></i></div><small data-i18n="lv_dev">em desenvolvimento</small></div>
+    <div class="sk"><h3>HTML &amp; CSS</h3><p data-i18n="sk_web">Noções de estrutura e estilo para páginas web, como este portfólio.</p><div class="bar"><i style="--w:35%"></i></div><small data-i18n="lv_basic">básico</small></div>
+    <div class="sk"><h3>JavaScript</h3><p data-i18n="sk_js">Lógica e sintaxe básicas para interações simples na web.</p><div class="bar"><i style="--w:30%"></i></div><small data-i18n="lv_basic">básico</small></div>
+    <div class="sk"><h3>SQL</h3><p data-i18n="sk_sql">Consultas e manipulação de banco de dados relacional.</p><div class="bar"><i style="--w:30%"></i></div><small data-i18n="lv_dev">em desenvolvimento</small></div>
+    <div class="sk"><h3>Git &amp; GitHub</h3><p data-i18n="sk_git">Controle de versão no dia a dia. Certificado pela Alura.</p><div class="bar"><i style="--w:50%"></i></div><small data-i18n="lv_mid">básico/intermediário</small></div>
+    <div class="sk"><h3>IntelliJ · VS Code</h3><p data-i18n="sk_ide">Ambientes de desenvolvimento, terminal integrado e extensões.</p><div class="bar"><i style="--w:60%"></i></div><small data-i18n="lv_comf">confortável</small></div>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2 data-i18n="proj_title">Projetos</h2>
+  <div class="grid2">
+    <article class="card"><h3><a href="https://github.com/devenzoborges/sistemadelocacaodeveiculos" target="_blank" rel="noopener" data-i18n="r1_t">Sistema de locação de veículos</a></h3><p data-i18n="r1_d">Sistema de locação e cadastro de veículos.</p><div class="tags"><span>Java</span><span>GitHub</span></div></article>
+    <article class="card"><h3><a href="https://github.com/devenzoborges/jogodaforca" target="_blank" rel="noopener" data-i18n="r2_t">Jogo da forca</a></h3><p data-i18n="r2_d">Jogo da forca por meio de palavras, feito em Java.</p><div class="tags"><span>Java</span><span>GitHub</span></div></article>
+    <article class="card"><h3><a href="https://github.com/devenzoborges/validadordecpf" target="_blank" rel="noopener" data-i18n="r3_t">Validador de CPF</a></h3><p data-i18n="r3_d">Validador de CPF em Java, aplicando lógica de programação.</p><div class="tags"><span>Java</span><span>GitHub</span></div></article>
+    <article class="card"><h3><a href="https://github.com/devenzoborges/primeiraaplicacaojavacomaalura" target="_blank" rel="noopener" data-i18n="r4_t">Primeira aplicação Java (Alura)</a></h3><p data-i18n="r4_d">Primeira aplicação Java, desenvolvida durante o curso da Alura.</p><div class="tags"><span>Java</span><span>GitHub</span></div></article>
+    <article class="card"><h3><a href="https://github.com/devenzoborges/sistemadelogisticaeinventarioemPOO" target="_blank" rel="noopener" data-i18n="r5_t">Logística e inventário em POO</a></h3><p data-i18n="r5_d">Sistema de controle de estoque em Python com cadastro de produtos, avaliações e status de disponibilidade. Projeto de estudo de POO.</p><div class="tags"><span>Python</span><span>GitHub</span></div></article>
+    <article class="card"><h3 data-i18n="p4_t">Projeto social — DF-140</h3><p data-i18n="p4_d">Apoio, junto com minha mãe, um projeto com crianças carentes da região.</p></article>
+  </div>
+  <a class="btn main" href="https://github.com/devenzoborges?tab=repositories" target="_blank" rel="noopener" data-i18n="repos">Ver todos os repositórios</a>
+</section>
+
+<section id="formacao">
+  <h2 data-i18n="edu_title">Formação &amp; Objetivos</h2>
+  <div class="grid2">
+    <ul class="cert">
+      <li><b data-i18n="c1">Engenharia de Software</b><small>CEUB · 2026–2029 · <span data-i18n="ongoing">em andamento</span></small></li>
+      <li><b data-i18n="c2">Lógica de Programação</b><small>Alura · <span data-i18n="done">concluído</span></small></li>
+      <li><b>Git &amp; GitHub</b><small>Alura · <span data-i18n="done">concluído</span></small></li>
+      <li><b>Python + POO em Python</b><small>Alura · <span data-i18n="done">concluído</span></small></li>
+      <li><b data-i18n="c5">Carreira Back-end Java</b><small>Alura · <span data-i18n="ongoing">em andamento</span></small></li>
+    </ul>
+    <div class="goals">
+      <p class="goal"><span data-i18n="g1">Dominar Java + POO em nível avançado</span><span class="bar"><i style="--w:10%"></i></span></p>
+      <p class="goal"><span data-i18n="g2">Aprofundar Estruturas de Dados</span><span class="bar"><i style="--w:20%"></i></span></p>
+      <p class="goal"><span data-i18n="g3">Praticar SQL em projetos reais</span><span class="bar"><i style="--w:30%"></i></span></p>
+      <p class="goal"><span data-i18n="g6">Finalizar meu primeiro jogo em Unity (C#)</span><span class="bar"><i style="--w:15%"></i></span></p>
+      <p class="goal"><span data-i18n="g4">Conquistar o primeiro estágio em Java</span><span class="bar"><i style="--w:5%"></i></span></p>
+      <p class="goal"><span data-i18n="g5">Evoluir inglês técnico</span><span class="bar"><i style="--w:40%"></i></span></p>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2 data-i18n="contact_title">Contato</h2>
+  <div class="grid2 links">
+    <a href="mailto:dev.enzoborges@gmail.com">E-mail<span>dev.enzoborges@gmail.com</span></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p data-i18n="foot">Movidor a curiosidade, café e Java</p>
+</footer>
+
+<script src="node.js"></script>
+</body>
+</html>
